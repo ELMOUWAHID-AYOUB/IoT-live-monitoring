@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GPS Tracking</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+
+<h2>GPS Tracking</h2>
+<div id="map" style="height: 500px;"></div>
+
+<script>
+var map = L.map('map').setView([48.0, 2.0], 13);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+var marker = L.marker([48.0, 2.0]).addTo(map);
+</script>
+
+</body>
+</html>
