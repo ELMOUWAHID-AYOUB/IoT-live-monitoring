@@ -1,5 +1,0 @@
-fastapi
-uvicorn
-requests
-paho-mqtt
-psycopg2-binary
